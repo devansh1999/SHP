@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shree Hari Polymers - PET Plastic Recycling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Adjust logo position */
+        .logo img {
+            width: 150px;
+            margin-left: 10px;
+        }
+
+        /* Aligning header text */
+        .header-content {
+            text-align: center;
+            flex-grow: 1;
+            padding: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            flex: 1;
+            min-width: 100px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Banner */
+        .banner {
+            background: url('ALPLA-PET-Recycling.jpg') no-repeat center center/cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .banner h1 {
+            font-size: 4vw;
+            margin: 0;
+        }
+
+        .banner button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .banner button:hover {
+            background-color: #45a049;
+        }
+
+        /* Section styling */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services, .industries {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex-basis: 300px;
+            flex-grow: 1;
+            margin: 20px;
+            max-width: 300px;
+        }
+
+        .card h3 {
+            color: #4CAF50;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+            }
+
+            .header-content {
+                margin: 10px 0;
+            }
+
+            .banner {
+                height: 50vh;
+            }
+
+            .banner h1 {
+                font-size: 6vw;
+            }
+
+            .card {
+                margin: 10px 0;
+                flex-basis: 100%;
+                max-width: 90%;
+            }
+
+            nav a {
+                flex-basis: 100%;
+                text-align: center;
+                padding: 10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .banner h1 {
+                font-size: 8vw;
+            }
+
+            .banner button {
+                font-size: 16px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Shree Hari Polymers Logo">
+        </div>
+        <div class="header-content">
+            <h1>Shree Hari Polymers</h1>
+            <p>Sustainable Solutions in Plastic Recycling</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Industries We Serve</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Transforming Plastic Waste into Solutions</h1>
+        <button onclick="scrollToSection('about')">Learn More</button>
+    </div>
+
+    <!-- About Us -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leading plastic waste recycling business specializing in PET plastic. We provide sustainable raw material solutions for the fibre, sheet, chemical, and monofilament industries.</p>
+    </section>
+
+    <!-- Services -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>PET Plastic Recycling</h3>
+                <p>High-quality recycling services for PET plastic waste, converting it into usable raw materials.</p>
+            </div>
+            <div class="card">
+                <h3>Custom Solutions</h3>
+                <p>Tailored recycling solutions for various industries including fibre, sheet, and monofilament industries.</p>
+            </div>
+            <div class="card">
+                <h3>Waste Collection</h3>
+                <p>Efficient collection and processing of plastic waste to minimize environmental impact.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries We Serve -->
+    <section id="industries">
+        <h2>Industries We Serve</h2>
+        <div class="industries">
+            <div class="card">
+                <h3>Fibre Industry</h3>
+                <p>Providing sustainable materials for textile and fabric production from recycled PET plastic.</p>
+            </div>
+            <div class="card">
+                <h3>Sheet Industry</h3>
+                <p>Supplying high-quality PET materials for the production of durable plastic sheets.</p>
+            </div>
+            <div class="card">
+                <h3>Chemical Industry</h3>
+                <p>Raw materials for chemical processes that rely on recycled plastics.</p>
+            </div>
+            <div class="card">
+                <h3>Monofilament Industry</h3>
+                <p>Recycled plastic for the production of monofilaments used in various applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you would like to learn more or inquire about our services, feel free to reach out to us.</p>
+        <p><strong>Email:</strong> anshagarwal481@gmail.com</p>
+        <p><strong>Phone:</strong> 9711226556</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Shree Hari Polymers | All rights reserved</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Use</a></p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+
+</body>
+</html>
