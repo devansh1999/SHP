@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devansh1999.github.io/SHP/sitemap.xml
+Sitemap: https://www.shprecycle.in/sitemap.xml
